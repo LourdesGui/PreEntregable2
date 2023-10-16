@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(242, 197, 233);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(213, 84, 127);
+    display: flex;
+}
+
+nav li {
+
+    margin-right: 200px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 125px;
+    height: 125px;
+    background-color: palevioletred;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid palevioletred;
+}
+
+
+
+
+h1 {
+    color: darkorchid;
+    font-size: 4rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+h2 {
+    color: lightcoral;
+}
+
+h2 {
+    text-align: center;
+}
+
+h2 {
+    background-color: lavender;
+}
+h3 { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #9c2c87;
+    text-align: left;
+}
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: indigo;
+    text-align: center;
+}
+
+.container {
+    text-align: start;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.formulario {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #cda4c5;
+    border: 1px solid #9c2c87;
+    border-radius: 20px; 
+    margin-left: 10px
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group [type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    width: 250px;
+    border: solid blueviolet;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+
+
+
+
+footer {
+
+    font-family: 'Lugrasimo', cursive;
+    font-size: 30px;
+    color: slateblue;
+    text-align: left;
+    text-decoration: solid;
+
+    background-color: rgb(167, 55, 167);
+    border: 5px solid rgb(213, 84, 127);
+    color: #300531;
+
+
+}
