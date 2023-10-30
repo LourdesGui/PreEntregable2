@@ -21,6 +21,13 @@ nav a {
     font-weight: bold;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+
 .logo {
     display: flex;
     justify-content: flex-start;
@@ -29,13 +36,15 @@ nav a {
     height: 125px;
     background-color: palevioletred;
     border-radius: 50%;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .logo {
     max-width: 100%;
     height: auto;
     border: 5px solid palevioletred;
+    top: 10px;
+    left: 10px;
 }
 
 
@@ -43,18 +52,14 @@ nav a {
 
 h1 {
     color: darkorchid;
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 h1 {
     text-align: center;
 }
 
-.logo {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
+
 
 h2 {
     color: lightcoral;
@@ -67,12 +72,14 @@ h2 {
 h2 {
     background-color: lavender;
 }
-h3 { 
+
+h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     color: #9c2c87;
     text-align: left;
 }
+
 p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Tahoma, sans-serif;
     font-size: 20px;
@@ -96,7 +103,7 @@ img {
     padding: 10px;
     background-color: #cda4c5;
     border: 1px solid #9c2c87;
-    border-radius: 20px; 
+    border-radius: 20px;
     margin-left: 10px
 }
 
@@ -118,6 +125,7 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
 .form-group [type="submit"] {
     background-color: #3498db;
     color: #fff;
@@ -125,7 +133,7 @@ textarea {
     border: solid blueviolet;
     padding: 10px 20px;
     border-radius: 5px;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 
