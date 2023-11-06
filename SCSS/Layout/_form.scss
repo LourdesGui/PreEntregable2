@@ -1,0 +1,38 @@
+@mixin form-styles {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #cda4c5;
+    border: 1px solid #9c2c87;
+    border-radius: 20px;
+    margin-left: 10px;
+    
+    .input-container {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 10px;
+      
+      label {
+        font-weight: bold;
+      }
+      
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"],
+      textarea {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+    }
+    
+    .form-group [type="submit"] {
+      background-color: #3498db;
+      color: #fff;
+      width: 250px;
+      border: solid blueviolet;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }

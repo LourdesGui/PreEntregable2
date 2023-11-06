@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 125px;
+    height: 125px;
+    background-color: $accent-color;
+    border-radius: 50%;
+    overflow: scroll;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid $accent-color;
+    top: 10px;
+    left: 10px;
+}
+nav {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: $secondary-color;
+        display: flex;
+
+        li {
+            margin-right: 200px;
+        }
+
+        a {
+            text-decoration: none;
+            color: $link-color;
+            font-weight: bold;
+        }
+    }
+}
