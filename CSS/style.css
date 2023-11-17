@@ -140,7 +140,7 @@ textarea {
 .imagefooter {
     max-width: 100%;
     height: auto;
-    border: 5px solid palevioletred;
+    border: 5px solid rgb(150, 17, 61);
     top: 10px;
     left: 10px;
 
