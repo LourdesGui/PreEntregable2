@@ -137,6 +137,14 @@ textarea {
 }
 
 
+.imagefooter {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid palevioletred;
+    top: 10px;
+    left: 10px;
+
+}
 
 
 
