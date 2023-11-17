@@ -1,23 +1,23 @@
 <?php
 
-$name = $_POST['Nombre y Apellido'];
-$email = $_POST['Correo Electrónico'];
-$phone = $_POST['Teléfono de contacto'];
-$emessage = $_POST['Mensaje'];
+$nombre = $_POST['Nombre y Apellido'];
+$correo = $_POST['Correo Electrónico'];
+$telefono = $_POST['Teléfono de contacto'];
+$mensaje = $_POST['Mensaje'];
 
 $formcontent="
-    Nombre y Apellido: $name \n
-    Correo electrónico: $email \n
-    Teléfono de contacto: $phone \n
-    Mensaje: $emessage 
+    Nombre y Apellido: $nombre \n
+    Correo electrónico: $correo \n
+    Teléfono de contacto: $telefono \n
+    Mensaje: $mensaje 
 
 ";
 
-$recipient = "lourdes.guiretti@hotmail.com";
+$recipient = "lourdes.guiretti@hotmail.com", $correo;
 
-$subject = "Consultas web";
+$subject = "Consultas web de $nombre";
 
-$header = "From: $email \r\n";
+$header = "From: $correo \r\n";
 $header .= "Content-Type: text/plain; charset=UTF-8";
 mail($recipient, $subject, $formcontent, $header) or die("Error!");
 header("Location: index.html");
