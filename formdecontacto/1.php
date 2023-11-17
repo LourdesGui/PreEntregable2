@@ -13,7 +13,7 @@ $formcontent="
 
 ";
 
-$recipient = "lourdes.guiretti@gmail.com";
+$recipient = "lourdes.guiretti@hotmail.com";
 
 $subject = "Consultas web";
 
