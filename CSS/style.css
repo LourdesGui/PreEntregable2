@@ -138,11 +138,14 @@ textarea {
 
 
 .imagefooter {
-    max-width: 100%;
-    height: auto;
-    border: 5px solid rgb(150, 17, 61);
-    top: 10px;
-    left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 125px;
+    height: 125px;
+    background-color: palevioletred;
+    border-radius: 50%;
+    overflow: scroll;
 
 }
 
