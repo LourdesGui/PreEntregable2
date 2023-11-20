@@ -138,14 +138,8 @@ textarea {
 
 
 .imagefooter {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 125px;
-    height: 125px;
-    background-color: palevioletred;
-    border-radius: 50%;
-    overflow: scroll;
+    display: block;
+    margin: 0 auto
 
 }
 
@@ -153,7 +147,7 @@ textarea {
 
 footer {
 
-    font-family: 'Handlee', cursive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     color: slateblue;
     text-align: left;
