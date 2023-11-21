@@ -1,8 +1,8 @@
 @mixin footer-styles {
-  font-family: 'handle', cursive;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 25px;
   color: slateblue; 
-  text-align: left;
+  text-align: center;
   text-decoration: solid;
   background-color: rgb(167, 55, 167);
   border: 5px solid rgb(213, 84, 127);
@@ -10,11 +10,9 @@
   color: #731875;
 }
 
-.imagefooter {
-  max-width: 100%;
-  height: auto;
-  border: 5px solid rgb(150, 17, 61);
-  top: 10px;
-  left: 10px;
+.footerimg {
+  display: block;
+    margin: 0 auto
+
 
 }
