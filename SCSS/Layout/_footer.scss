@@ -12,7 +12,7 @@
 
 .footerimg {
   display: block;
-    margin: 0 auto
+   
 
 
 }
@@ -20,5 +20,7 @@
 .Redes {
   display: flex;
   align-content: center;
+  align-items: center;
+  flex-direction: column;
   
 }
