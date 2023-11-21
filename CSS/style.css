@@ -96,6 +96,14 @@ img {
     margin: 0 auto;
 }
 
+.parrafo-ingles {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(29, 10, 151);
+    text-align: center;
+
+}
+
 
 .formulario {
     max-width: 400px;
