@@ -139,8 +139,11 @@ textarea {
 
 .footerimg {
     display: block;
-    margin: 0 auto;
-    text-align-last: left;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 
 }
 
@@ -150,13 +153,15 @@ footer {
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
-    color: rgb(17, 16, 22);
+    color: slateblue;
     text-align: center;
     text-decoration: solid;
 
     background-color: rgb(167, 55, 167);
     border: 5px solid rgb(213, 84, 127);
     color: #300531;
+
+   
 
 
 }
