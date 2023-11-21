@@ -140,8 +140,8 @@ textarea {
 .footerimg {
    
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
     
 
 }
@@ -159,6 +159,9 @@ footer {
     background-color: rgb(167, 55, 167);
     border: 5px solid rgb(213, 84, 127);
     color: #300531;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
    
 
