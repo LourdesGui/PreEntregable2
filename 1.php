@@ -1,15 +1,15 @@
 <?php
 
-$nombre = $_POST['Nombre y Apellido'];
-$correo = $_POST['Correo Electrónico'];
-$telefono = $_POST['Teléfono de contacto'];
-$mensaje = $_POST['Mensaje'];
+$nombre = $_POST['fullname'];
+$correo = $_POST['correo_electronico'];
+$telefono = $_POST['phone'];
+$mensaje = $_POST['mensaje'];
 
 $formcontent="
-    Nombre y Apellido: $nombre \n
-    Correo electrónico: $correo \n
-    Teléfono de contacto: $telefono \n
-    Mensaje: $mensaje 
+    fullname: $nombre \n
+    correo_electronico: $correo \n
+    phone: $telefono \n
+    mensaje: $mensaje 
 
 ";
 
