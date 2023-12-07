@@ -1,13 +1,13 @@
 <?php
 
 $nombre = $_POST['fullname'];
-$correo = $_POST['correo_electronico'];
+$correo = $_POST['email'];
 $telefono = $_POST['phone'];
 $mensaje = $_POST['mensaje'];
 
 $formcontent="
     fullname: $nombre \n
-    correo_electronico: $correo \n
+    email: $correo \n
     phone: $telefono \n
     mensaje: $mensaje 
 
