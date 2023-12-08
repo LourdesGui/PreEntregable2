@@ -23,3 +23,11 @@ mail($recipient, $subject, $formcontent, $header) or die("Error!");
 header("Location: index.html");
 
 ?>
+
+{    "functions": {
+        "**/*.php": { runtime: "vercel-php@0.6.0" },
+    },
+    "routes": [
+        { src: "/1.php", dest: "/1.php" }
+    ],
+}
