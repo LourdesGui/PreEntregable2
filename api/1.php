@@ -19,7 +19,7 @@ $subject = "Consultas web de $name";
 
 $header = "From: $email \r\n";
 $header .= "Content-Type: text/plain; charset=UTF-8";
-mail($recipient, $subject, $formcontent, $header) or die("Error!");
+mail($recipient, $subject, $formcontent, $header);
 header("Location: index.html");
 
 ?>
