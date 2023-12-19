@@ -42,7 +42,7 @@
          // these IDs from the previous steps
           emailjs.send("service_3ggoj7q", "template_yxa8jbm", formData).then(
             function () {
-              console.log("SUCCESS!");
+              console.log("SUCCESS!"); window.location.href = '/gracias.html';
             },
             function (error) {
               console.log("FAILED...", error);
