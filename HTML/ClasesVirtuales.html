@@ -32,8 +32,15 @@
           event.preventDefault();
           // generate a five digit number for the contact_number variable
          // this.contact_number.value = (Math.random() * 100000) | 0;
-          // these IDs from the previous steps
-          emailjs.send("service_3ggoj7q", "template_yxa8jbm", this).then(
+         let formData = {}
+      let inputs = this.querySelectorAll('input');
+      inputs = Array.from(inputs).concat(this.querySelectorAll('textarea'));
+
+      Array.from(inputs).forEach((input) => {
+        formData[input.name] = input.value;
+      });
+         // these IDs from the previous steps
+          emailjs.send("service_3ggoj7q", "template_yxa8jbm", formData).then(
             function () {
               console.log("SUCCESS!");
             },
