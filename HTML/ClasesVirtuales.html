@@ -17,6 +17,30 @@
 
   <link rel="stylesheet" href="../CSS/style.css">
 
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+      (function() {
+          // https://dashboard.emailjs.com/admin/account
+          emailjs.init('wr8PXqdxba4YBfFW0mSDB');
+      })();
+    </script>
+     <script type="text/javascript">
+      window.onload = function() {
+          document.getElementById('contact-form').addEventListener('submit', function(event) {
+              event.preventDefault();
+              // generate a five digit number for the contact_number variable
+              this.contact_number.value = Math.random() * 100000 | 0;
+              // these IDs from the previous steps
+              emailjs.sendForm('contact_service', 'contact_form', this)
+                  .then(function() {
+                      console.log('SUCCESS!');
+                  }, function(error) {
+                      console.log('FAILED...', error);
+                  });
+          });
+      }
+  </script>
+
 </head>
 
 
@@ -105,7 +129,7 @@
       <h3>Completá el siguiente formulario para contactarnos:</h3>
       <div class="row">
         <div class="formulario">
-          <form method="post" action="/api/1.php">
+          <form method="post">
             <div class="form-group">
               <label for="name">Nombre y apellido</label>
               <input type="text" class="form-control" id="fullname" name="fullname" placeholder="Nombre y apellido">
