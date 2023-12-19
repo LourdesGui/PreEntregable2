@@ -34,7 +34,7 @@
          // this.contact_number.value = (Math.random() * 100000) | 0;
          let formData = {}
       let inputs = this.querySelectorAll('input');
-      inputs = Array.from(inputs).concat(this.querySelectorAll('textarea'));
+      inputs = Array.from(inputs).concat(Array.from(this.querySelectorAll('textarea')));
 
       Array.from(inputs).forEach((input) => {
         formData[input.name] = input.value;
